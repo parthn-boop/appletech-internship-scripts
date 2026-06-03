@@ -88,3 +88,5 @@ def delete_user(user_id: int):
     if cursor.rowcount == 0:
         raise HTTPException(status_code=404, detail="User not found")
     return {"message": "User deleted successfully"}
+
+#successfully completed
