@@ -734,7 +734,7 @@ def render_investment_simulator(display_name, ticker, amount, period_label, peri
         st.warning(f"Couldn't calculate that: {e}")
 
 # ---------------------------------------------------
-# Prompt Builder
+# Prompt Builder and very important
 # ---------------------------------------------------
 def build_prompt(comparison_companies=None):
 
